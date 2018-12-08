@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+
+
+int main()
+{
+int a,h,pole;
+
+printf("Podaj dlugosc podstawy tr: ");
+scanf("%d", &a);
+
+printf("Podaj wysokosc tr: ");
+scanf("%d", &h);
+
+pole = 0.5 * a * h;
+
+printf("Pole trojkata wynosi: %d cm2.", pole);
+
+
+getch();
+return 0;
+}
